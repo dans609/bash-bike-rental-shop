@@ -12,3 +12,12 @@ __vsc_prompt_cmd_original
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+git status
+pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
+git origin -v
+git remote -v
+git remote add project https://github.com/dans609/bash-bike-rental-shop.git
+git remote -v
+git stauts
+git status
+git add .
