@@ -1,0 +1,4 @@
+psql --username=freecodecamp --dbname=bikes
+echo "I have put you down for the $BIKE_INFO_FORMATTED Bike, $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')."
+echo "I have put you down for the Mountain Bike, $(echo Me | sed -r 's/^ *| *$//g')."
+echo "I have put you down for the Mountain Bike, $(echo Me | sed -r 's/^ *| *$//g')."
